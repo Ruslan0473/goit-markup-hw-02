@@ -3,6 +3,29 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    color: rgba(46, 47, 66, 1);
+
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 1);
+    
+
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
 }
 
 a {
@@ -13,42 +36,21 @@ ul {
     list-style-type: none;
 }/*глобальні стилі*/
 
-.navbar {
-    display: flex;
+.hero {
     width: 100%;
     max-width: 1440px;
-    height: 72;
-    border: 0, 0, 5px 0;
-    border-color: black;
-
-}
-
-.container {
-    display: flex;
-    height: inherit;
-    justify-content: space-between;
-    align-items: center;
-    /*list-style-type: none;*/
-}
-.logo {
-    margin: 0, 0, 0, 156px;
-}
-
-.link {
-    padding: 0;
-    display: flex;
-    /*list-style-type: none;*/
-
-}
-
-.address {
-    display: flex;
-    padding: 0;
-    /*list-style-type: none;*/
-}
-
-.hero {
-    width: 1440px;
-    height: 600px;
+    height: 732px;
     background-color: rgba(46, 47, 66, 1);
+
 }
+
+.button {
+    width: 169px;
+    height: 56px;
+    border-color: rgba(77, 90, 229, 1);
+    border-radius: 4px;
+    box-shadow: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(77, 90, 229, 1);
+}
+
